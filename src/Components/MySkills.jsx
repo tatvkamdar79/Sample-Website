@@ -7,7 +7,7 @@ import skillsimg from "../assets/skills-image.png";
 const MySkills = () => {
   const isAboveMediumScreens = useMediaQuery("(min-width: 1060px)");
   return (
-    <div id="skills" className="pt-10 pb-24">
+    <div id="skills" className="pt-10 pb-24 h-fit">
       <div className="md:flex md:justify-between md:gap-16 mt-32">
         <motion.div
           className="md:w-1/3"
